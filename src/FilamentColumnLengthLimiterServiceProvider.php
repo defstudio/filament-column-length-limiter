@@ -106,7 +106,6 @@ class FilamentColumnLengthLimiterServiceProvider extends PackageServiceProvider
                                         if(this.$el.classList.contains(`fi-ta-text-item`)){
                                             this.show = this.$el.clientHeight < this.$el.scrollHeight;
                                         }else{
-                                        console.log(this.$el);
                                             const text = this.$el.querySelector(`.fi-ta-text-item`);
 
                                             if(text){

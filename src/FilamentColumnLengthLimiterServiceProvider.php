@@ -51,6 +51,8 @@ class FilamentColumnLengthLimiterServiceProvider extends PackageServiceProvider
                             $state = $state->getLabel();
                         }
 
+                        $state = str($state)->toHtmlString();
+
                         return [
                             'style' => 'padding-block: unset',
                             'x-data' => '{
